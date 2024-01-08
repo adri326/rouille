@@ -52,7 +52,7 @@ rouille::rouille! {
             si soit Quelque(dico) = dangereux { DICTIONNAIRE.en_réf() } {
                 Bien(dico.lire(&clé))
             } sinon {
-                Arf("fetchez le dico".vers())
+                Arf("récupérez le dico".vers())
             }
         }
     }
